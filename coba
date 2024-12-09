@@ -18,7 +18,7 @@ int main() {
 
     // Memastikan input valid (angka tidak negatif)
     if (angka < 0) {
-        printf("Faktorial tidak terdefinisi untuk angka negatif.\n");
+        printf("Tidak ada nilai faktorial karna bilangan negatif.\n");
     } else {
         // Menampilkan hasil faktorial
         printf("Faktorial dari %d adalah %lld\n", angka, faktorial(angka));
